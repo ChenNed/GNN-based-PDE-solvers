@@ -44,7 +44,7 @@ Contributed by Xueqin Chen, AidroLab, TU Delft
 ## [Models](#content) 
 ### [Others](#content)
 
-*In this branch, these methods improved the prediction performance by introducing new input features, new training strategies, etc.*
+*In this branch, the listed methods improved the prediction performance by introducing new input features, new training strategies, etc.*
 
 
 1. **Physics-aware difference graph networks for sparsely-observed dynamics.** ICLR, 2020. [paper](https://openreview.net/forum?id=r1gelyrtwH) [code](https://github.com/USC-Melady/ICLR2020-PADGN)
