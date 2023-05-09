@@ -65,7 +65,6 @@ Contributed by Xueqin Chen, AidroLab, TU Delft
    
 
 ### [Multi-scale](#content)
-The multi-scale means different time and space discretizations.
 
 ### [Multi-temporal-scale](#content)
 1. **Learning continuous-time PDEs from sparse data with graph neural networks.** ICLR, 2021. [paper](https://openreview.net/pdf?id=aUX5Plaq7Oy) [code](https://github.com/yakovlev31/graphpdes_experiments)
@@ -142,9 +141,6 @@ The multi-scale means different time and space discretizations.
  
     *Oluwadamilola Fasina, Smita Krishnaswamy and Aditi Krishnapriyan.*
    
-   
-   
-   
 ### [Symmetry](#content)
 
 1. **REMuS-GNN: A Rotation-Equivariant Model for Simulating Continuum Dynamics.** ICLR Workshop on Geometrical and Topological Representation Learning, 2022. [paper](https://arxiv.org/pdf/2205.07852.pdf)
@@ -173,8 +169,7 @@ The multi-scale means different time and space discretizations.
 
    *Jiaqi Han, Wenbing Huang, Hengbo Ma, Jiachen Li, Joshua B. Tenenbaum and Chuang Gan.*
    
- 
- 
+  
 ### [Boundary conditions](#content)
 1. **Physics-Embedded Neural Networks: Graph Neural PDE Solvers with Mixed Boundary Conditions.** NIPS, 2022. [paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/93476ae409ae3246e22a9d4b931f84ed-Paper-Conference.pdf) [code](https://github.com/yellowshippo/penn-neurips2022)
 
@@ -192,8 +187,6 @@ The multi-scale means different time and space discretizations.
 1. **E(3) equivariant graph neural networks for particle-based fluid mechanics.** ICLR, 2023. [paper](https://arxiv.org/abs/2304.00150v1)
 
    *Artur P. Toshev, Gianluca Galletti, Johannes Brandstetter, Stefan Adami, and Nikolaus A. Adams.*
-
-
 
 
 ### [Inverse problem](#content)
