@@ -21,23 +21,27 @@ Contributed by Xueqin Chen, AidroLab, TU Delft
   </tr>
 
 <tr>
-    <td colspan="2">&ensp;<a href="#dl-with-numerical">3. DL with Numerical </a></td>
+    <td colspan="2">&ensp;<a href="#computational-efficiency">3. Computational efficiency </a></td>
 </tr>
 
 <tr>
-    <td colspan="2">&ensp;<a href="#symmetry">4. Symmetry </a></td>
+    <td colspan="2">&ensp;<a href="#dl-with-numerical">4. DL with Numerical </a></td>
 </tr>
 
 <tr>
-    <td colspan="2">&ensp;<a href="#boundary-conditions">5. Boundary conditions </a></td>
+    <td colspan="2">&ensp;<a href="#symmetry">5. Symmetry </a></td>
 </tr>
 
 <tr>
-    <td colspan="2">&ensp;<a href="#particle-based">6. Particle-based </a></td>
+    <td colspan="2">&ensp;<a href="#boundary-conditions">6. Boundary conditions </a></td>
 </tr>
 
 <tr>
-    <td colspan="2">&ensp;<a href="#inverse-problem">7. Inverse problem </a></td>
+    <td colspan="2">&ensp;<a href="#particle-based">7. Particle-based </a></td>
+</tr>
+
+<tr>
+    <td colspan="2">&ensp;<a href="#inverse-problem">8. Inverse problem </a></td>
 </tr>
 </table>
 
@@ -51,11 +55,11 @@ Contributed by Xueqin Chen, AidroLab, TU Delft
 
    *Sungyong Seo, Chuizheng Meng, and Yan Liu.*
 
-1. **Learning mesh-based simulation with graph networks.** ICLR, 2021. [paper](https://openreview.net/forum?id=roNqYL0_XP)
+1. **Learning mesh-based simulation with graph networks.** ICLR, 2021. [paper](https://openreview.net/forum?id=roNqYL0_XP) [code](https://github.com/deepmind/deepmind-research/tree/master/meshgraphnets)
 
    *Tobias Pfaff, Meire Fortunato, Alvaro Sanchez-Gonzalez, and Peter Battaglia.*
    
-1. **Message passing neural PDE solvers.** ICLR, 2022. [paper](https://openreview.net/forum?id=vSix3HPYKSU)
+1. **Message passing neural PDE solvers.** ICLR, 2022. [paper](https://openreview.net/forum?id=vSix3HPYKSU) [code](https://github.com/brandstetter-johannes/MP-Neural-PDE-Solvers)
 
    *Johannes Brandstetter, Daniel E. Worrall, and Max Welling.*
 
@@ -113,9 +117,9 @@ Contributed by Xueqin Chen, AidroLab, TU Delft
 
    *Varun J Shankar, Shivam Barwey, Romit Maulik and Venkatasubraman Viswanathan.*
    
-1. **MG-GNN: Multigrid graph neural networks for learning multilevel domain decomposition methods.** arXiv, 2023. [paper](https://arxiv.org/abs/2301.11378)
+1. **MG-GNN: Multigrid graph neural networks for learning multilevel domain decomposition methods.** ICML, 2023. [paper](https://arxiv.org/abs/2301.11378) [code](https://github.com/JRD971000/Code-Multilevel-MLORAS)
 
-   *Ali Taghibakhshi, Nicolas Nytko, Tareq Uz Zaman, Scott MacLachlan, Luke Olson, and Matthew West.***
+   *Ali Taghibakhshi, Nicolas Nytko, Tareq Uz Zaman, Scott MacLachlan, Luke Olson, and Matthew West.*
 
 1. **GNN-based physics solver for time-independent PDEs.** arXiv, 2023. [paper](https://arxiv.org/abs/2303.15681v1)
 
@@ -131,11 +135,28 @@ Contributed by Xueqin Chen, AidroLab, TU Delft
    *Léonard Equer, T. Konstantin Rusch, and Siddhartha Mishra.*
 
 
+### [Computational efficiency](#content)
+
+1. **Predicting physics in mesh-reduced space with temporal attention.** ICLR, 2022. [paper](https://openreview.net/forum?id=XctLdNfCmP)
+
+   *Xu Han, Han Gao, Tobias Pfaff, Jianxun Wang, and Liping Liu.*
+
+1. **Predicting Fluid Dynamics in Physical-informed Mesh-reduced Space.** ICLR Workshop on Physics for Machine Learning, 2023.  [paper](https://openreview.net/forum?id=EPyS7FHMIK)
+
+   *Yeping Hu, Bo Lei and Victor M Castillo.*
+
+1. **Scientific Computing Algorithms to Learn Enhanced Scalable Surrogates for Mesh Physics.** ICLR Workshop on Physics for Machine Learning, 2023. [paper]( https://arxiv.org/pdf/2304.00338.pdf)
+
+   *Brian R. Bartoldson, Yeping Hu, Amar Saini, Jose Cadena, Yucheng Fu, Jie Bao, Zhijie Xu, Brenda Ng and Phan Nguyen.*
+
+1. **MG-GNN: Multigrid graph neural networks for learning multilevel domain decomposition methods.** ICML, 2023. [paper](https://arxiv.org/abs/2301.11378) [code](https://github.com/JRD971000/Code-Multilevel-MLORAS)
+
+   *Ali Taghibakhshi, Nicolas Nytko, Tareq Uz Zaman, Scott MacLachlan, Luke Olson, and Matthew West.*
+
 ### [DL with Numerical](#content)
 1. **Combining differentiable PDE solvers and graph neural networks for fluid flow prediction.** ICML, 2020. [paper](https://dl.acm.org/doi/10.5555/3524938.3525162) [code](https://github.com/locuslab/cfd-gcn)
 
    *Filipe de Avila Belbute-Peres, Thomas D. Economon, and J. Zico Kolter.*
-   
    
  1. **Geometric NeuralPDE (GNPnet) Models for Learning Dynamics.** NeurIPS workshop Machine Learning and the Physical Sciences, 2022. [paper](https://ml4physicalsciences.github.io/2022/files/NeurIPS_ML4PS_2022_79.pdf) [code](https://github.com/obfasina/PDE_scattering/tree/25d8f8507e7da662192b8f09367fa0d434e3cadd)
  
@@ -154,7 +175,6 @@ Contributed by Xueqin Chen, AidroLab, TU Delft
 1. **Physics-Embedded Neural Networks: Graph Neural PDE Solvers with Mixed Boundary Conditions.** NIPS, 2022. [paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/93476ae409ae3246e22a9d4b931f84ed-Paper-Conference.pdf)
 
    *Masanobu Horie and Naoto Mitsume.*
-   
    
 1. **E(3) equivariant graph neural networks for particle-based fluid mechanics.** ICLR, 2023. [paper](https://arxiv.org/abs/2304.00150v1)
 
@@ -197,9 +217,4 @@ Contributed by Xueqin Chen, AidroLab, TU Delft
 1. **Learning the solution operator of boundary value problems using graph neural networks.** ICML, 2022. [paper](https://arxiv.org/abs/2206.14092)
 
    *Winfried Lötzsch, Simon Ohler, and Johannes S. Otterbach.*
-   
-   
-
-
-
-
+![image](https://github.com/ChenNed/GNN-based-PDE-solvers/assets/18159994/2f82f22a-90dd-4c49-8df0-931dae93d6de)
