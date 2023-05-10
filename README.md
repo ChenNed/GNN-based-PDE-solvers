@@ -217,4 +217,3 @@ Contributed by Xueqin Chen, AidroLab, TU Delft
 1. **Learning the solution operator of boundary value problems using graph neural networks.** ICML, 2022. [paper](https://arxiv.org/abs/2206.14092)
 
    *Winfried Lötzsch, Simon Ohler, and Johannes S. Otterbach.*
-![image](https://github.com/ChenNed/GNN-based-PDE-solvers/assets/18159994/2f82f22a-90dd-4c49-8df0-931dae93d6de)
