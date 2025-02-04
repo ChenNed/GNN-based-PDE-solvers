@@ -51,9 +51,9 @@ Contributed by Xueqin Chen
 *In this branch, the listed methods improved the prediction performance by introducing new input features, new training strategies, etc.*
 
 
-1. **Physics-aware difference graph networks for sparsely-observed dynamics.** ICLR, 2020. [paper](https://openreview.net/forum?id=r1gelyrtwH) [code](https://github.com/USC-Melady/ICLR2020-PADGN)
+<!--1. **Physics-aware difference graph networks for sparsely-observed dynamics.** ICLR, 2020. [paper](https://openreview.net/forum?id=r1gelyrtwH) [code](https://github.com/USC-Melady/ICLR2020-PADGN)
 
-   *Sungyong Seo, Chuizheng Meng, and Yan Liu.*
+   *Sungyong Seo, Chuizheng Meng, and Yan Liu.*-->
 
 1. **Learning mesh-based simulation with graph networks.** ICLR, 2021. [paper](https://openreview.net/forum?id=roNqYL0_XP) [code](https://github.com/deepmind/deepmind-research/tree/master/meshgraphnets)
 
