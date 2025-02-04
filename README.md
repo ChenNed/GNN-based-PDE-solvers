@@ -1,6 +1,6 @@
 # GNN-based-PDE-solvers
 
-Contributed by Xueqin Chen, AidroLab, TU Delft
+Contributed by Xueqin Chen
 
 ## [Content](#content)
 <table>
